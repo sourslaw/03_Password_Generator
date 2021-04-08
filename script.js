@@ -18,8 +18,15 @@ const symbols = '!@#$%^&*=-_';
 // Add event listener to generate button
 // generateBtn.addEventListener("click", writePassword);
 
+// prompt crap
+
+// const incoming = promp()
+
 length = 19;
 
+
+
+// choice logic
 const wannaSymbols = 1;
 const Wnumbers = 1;
 const Wupper = 1;
@@ -31,6 +38,7 @@ if (wannaSymbols == 1) {
 
 console.log(base);
 
+// password generate
 generate.addEventListener("click", function(event) {
     event.preventDefault();
     
@@ -44,6 +52,6 @@ generate.addEventListener("click", function(event) {
 
 
     // writes to the textarea
-    const passwordOut = document.getElementById("password");
+    const passwordOut = document.getElementById("magichole");
     passwordOut.value = password;
 });
