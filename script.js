@@ -1,3 +1,4 @@
+const lowerCase = 'abcdefghijklmnopqrstuvwxyz';
 const upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const numbers = '0123456789';
 const symbols = '!@#$%^&*=-_';
@@ -8,15 +9,18 @@ let lengthOption = document.getElementById("lengthOption");
 const symbolCheck = document.getElementById("symbolCheck");
 const numberCheck = document.getElementById("numberCheck");
 const upperCheck = document.getElementById("upperCheck");
+const lowerCheck = document.getElementById("lowerCheck");
 
 // password generate (one big function)
 generate.addEventListener("click", function() {
   // default base character string
-  let base = 'abcdefghijklmnopqrstuvwxyz';
+  let base = '';
   // ternary operators
   (symbolCheck.checked) ? base += symbols: '';
   (numberCheck.checked) ? base += numbers: '';
   (upperCheck.checked) ? base += upperCase: '';
+  (lowerCheck.checked) ? base += lowerCase: '';
+
   // password initially set to empty string
   let password = '';
   // password creation happens here bro
