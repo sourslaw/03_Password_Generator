@@ -36,6 +36,13 @@ generate.addEventListener("click", function() {
   }
 });
 
+// reset selections
+reset.addEventListener("click", function() {
+  let inputs = document.querySelectorAll(".form-check-input");
+  for (var i = 0; i < inputs.length; i++) {
+    inputs[i].checked = false;
+  }
+});
 
 
 // Assignment Code

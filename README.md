@@ -10,7 +10,7 @@
 ### The User Story for this project is as follows:
 - An employee with access to sensitive data wants to randomly generate a password that meets certain criteria so that they can create a strong password that provides greater security
 
-### The codebase meets the general critera for acceptance:
+### The codebase meets the general criteria for acceptance:
 - When I desire to change the password criteria, then I am able to select which criteria to include in the password
 - When I desire to change the length of the password, then I am able to choose a length of at least 8 characters and no more than 128 characters
 - When I desire, I may choose lowercase, uppercase, numeric, and/or special characters
