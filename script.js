@@ -55,3 +55,14 @@ generate.addEventListener("click", function(event) {
     const passwordOut = document.getElementById("magichole");
     passwordOut.value = password;
 });
+
+
+// const options = document.querySelector("#options");
+
+// var myoptions = new bootstrap.Modal(document.getElementById('options'), {
+//   keyboard: false
+// })
+
+// myoptions.addEventListener("click", function() {
+//   console.log("hello");
+// })
