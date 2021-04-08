@@ -20,7 +20,6 @@ generate.addEventListener("click", function() {
   (numberCheck.checked) ? base += numbers: '';
   (upperCheck.checked) ? base += upperCase: '';
   (lowerCheck.checked) ? base += lowerCase: '';
-
   // password initially set to empty string
   let password = '';
   // password creation happens here bro
@@ -30,6 +29,11 @@ generate.addEventListener("click", function() {
   // writes to the textarea
   const passwordOut = document.getElementById("magichole");
   passwordOut.value = password;
+  // if no options selected
+  const defaultSay = 'please select at least one option . . .';
+  if (base == '') {
+    passwordOut.value = defaultSay;
+  }
 });
 
 
