@@ -4,7 +4,7 @@
 
 - A password generator which provides options to manipulated the complexity of the returned password
 
-![alt text](assets/images/screenshot.png)
+![alt text](assets/screenshot.png)
 
 
 ### The User Story for this project is as follows:
