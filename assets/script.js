@@ -3,6 +3,7 @@ const lowerCase = 'abcdefghijklmnopqrstuvwxyz';
 const upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 const numbers = '0123456789';
 const symbols = '!@#$%^&*=-_';
+
 // length of generated password
 let lengthOption = document.getElementById("lengthOption");
 // complexity options
@@ -24,7 +25,7 @@ generate.addEventListener("click", function() {
     (lowerCheck.checked) ? base += lowerCase: '';
     // password initially set to empty string to be written to the textarea
     let password = '';
-    // password creation happens here bro
+    // password creation happens here bro (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt)
     for (let i = 0; i<lengthOption.value; i++) {
         password += base.charAt(Math.floor(Math.random() * base.length));
     }
