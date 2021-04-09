@@ -4,12 +4,14 @@ const numbers = '0123456789';
 const symbols = '!@#$%^&*=-_';
 
 // number length
-let lengthOption = document.getElementById("lengthOption");
+const lengthOption = document.getElementById("lengthOption");
 // complexity options
 const symbolCheck = document.getElementById("symbolCheck");
 const numberCheck = document.getElementById("numberCheck");
 const upperCheck = document.getElementById("upperCheck");
 const lowerCheck = document.getElementById("lowerCheck");
+// password
+const passwordOut = document.getElementById("magichole");
 
 // password generate (one big function)
 generate.addEventListener("click", function() {
@@ -27,7 +29,6 @@ generate.addEventListener("click", function() {
         password += base.charAt(Math.floor(Math.random() * base.length));
     }
     // writes to the textarea
-    const passwordOut = document.getElementById("magichole");
     passwordOut.value = password;
     // if no options selected
     const defaultSay = 'please select at least one option . . .';
@@ -36,12 +37,13 @@ generate.addEventListener("click", function() {
     }
 });
 
-// reset selections
+// reset selections and clears textarea
 reset.addEventListener("click", function() {
-    let inputs = document.querySelectorAll(".form-check-input");
+    const inputs = document.querySelectorAll(".form-check-input");
     for (var i = 0; i < inputs.length; i++) {
         inputs[i].checked = false;
-    }
+	}
+	passwordOut.value = "";
 });
 
 
