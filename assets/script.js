@@ -4,7 +4,7 @@ const numbers = '0123456789';
 const symbols = '!@#$%^&*=-_';
 
 // number length
-const lengthOption = document.getElementById("lengthOption");
+let lengthOption = document.getElementById("lengthOption");
 // complexity options
 const symbolCheck = document.getElementById("symbolCheck");
 const numberCheck = document.getElementById("numberCheck");
@@ -37,13 +37,14 @@ generate.addEventListener("click", function() {
     }
 });
 
-// reset selections and clears textarea
+// clears selections and clears textarea
 reset.addEventListener("click", function() {
     const inputs = document.querySelectorAll(".form-check-input");
     for (var i = 0; i < inputs.length; i++) {
         inputs[i].checked = false;
 	}
 	passwordOut.value = "";
+	lengthOption.value = 9;
 });
 
 
