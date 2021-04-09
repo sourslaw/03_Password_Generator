@@ -11,7 +11,7 @@ const symbolCheck = document.getElementById("symbolCheck");
 const numberCheck = document.getElementById("numberCheck");
 const upperCheck = document.getElementById("upperCheck");
 const lowerCheck = document.getElementById("lowerCheck");
-// password for textarea
+// textarea password will be written to
 const passwordOut = document.getElementById("magichole");
 
 // password generator logic (one big function)
