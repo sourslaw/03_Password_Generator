@@ -19,7 +19,8 @@
 - When the password is generated the password is written to the page
 
 ### Installation
-- Deployed application may be seen: [here](https://sourslaw.github.io/03_Password_Generator/)
+- The project is uploaded to [GitHub](https://github.com/) at the following repository: [here](https://github.com/sourslaw/03_Password_Generator)
+- The deployed application may be seen: [here](https://sourslaw.github.io/03_Password_Generator/)
 
 ### Usage
 - The password generator upon load has a default length of 9 characters and includes lowercase letters only
