@@ -21,8 +21,8 @@
 
 ### Usage
 - The password generator upon load has a default length of 9 characters and includes lowercase letters only
-- The 'Options' button allows the user to specify a generated password between 8 and 32 characters in length
-- The password may be comprised of lowercase letters, uppercase letters, numbers, and symbols. At least one character type must be selected and all four may be selected
+- The 'Options' button allows the user to specify a generated password between 8 and 32 characters in length, lowercase letters, uppercase letters, numbers, or symbols
+- The generated password may be comprised of lowercase letters, uppercase letters, numbers, and symbols. At least one character type must be selected and all four may be selected
 - The selections may be cleared via the 'clear' button in the 'Options' menu
 
 ### License
