@@ -1,11 +1,8 @@
 # Password Generator
-
-## Description
-
-- A password generator which provides options to manipulated the complexity of the returned password
-
 ![alt text](assets/images/screenshot.png)
 
+## Description
+- A password generator which provides options to manipulated the complexity of the returned password
 
 ### The User Story for this project is as follows:
 - An employee with access to sensitive data wants to randomly generate a password that meets certain criteria so that they can create a strong password that provides greater security
