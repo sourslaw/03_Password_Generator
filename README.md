@@ -18,4 +18,8 @@
 - When desired criteria is selected, then a password is generated that matches the selected criteria
 - When the password is generated the password is written to the page
 
-### Deployed application may be seen: [here](https://sourslaw.github.io/03_Password_Generator/)
+### Installation
+- Deployed application may be seen: [here](https://sourslaw.github.io/03_Password_Generator/)
+
+### License
+- Licensed under the [MIT](https://opensource.org/licenses/mit-license.php) license.
