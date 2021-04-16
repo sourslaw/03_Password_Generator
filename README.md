@@ -5,15 +5,15 @@
 - A password generator which provides options to manipulate the complexity of the returned password
 
 ### The User Story for this project is as follows:
-- An employee with access to sensitive data wants to randomly generate a password that meets certain criteria so that they can create a strong password that provides greater security
+- AN employee with access to sensitive data WANTS to randomly generate a password that meets certain criteria SO THAT they can create a strong password that provides greater security
 
 ### The codebase meets the general criteria for acceptance:
-- When I desire to change the password criteria, then I am able to select which criteria to include in the password
-- When I desire to change the length of the password, then I am able to choose a length of at least 8 characters and no more than 128 characters
-- When I desire, I may choose lowercase, uppercase, numeric, and/or special characters
-- When my choices are finalized, then my input should be validated and at least one character type should be selected
-- When desired criteria is selected, then a password is generated that matches the selected criteria
-- When the password is generated the password is written to the page
+- WHEN I desire to change the password criteria, THEN I am able to select which criteria to include in the password
+- WHEN I desire to change the length of the password, THEN I am able to choose a length of at least 8 characters and no more than 128 characters
+- WHEN I desire, I may choose lowercase, uppercase, numeric, and/or special characters
+- WHEN my choices are finalized, THEN my input should be validated and at least one character type should be selected
+- WHEN desired criteria is selected, THEN a password is generated that matches the selected criteria
+- WHEN the password is generated the password, THEN it is written to the page
 
 ### Installation
 - The project is uploaded to [GitHub](https://github.com/) at the following repository: [here](https://github.com/sourslaw/03_Password_Generator)
